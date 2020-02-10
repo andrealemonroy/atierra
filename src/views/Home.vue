@@ -19,7 +19,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import { VueTyper } from "vue-typer";
 
 export default {
