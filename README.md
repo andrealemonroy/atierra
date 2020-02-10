@@ -1,8 +1,7 @@
 
 
-### Compiles and minifies for production
-Repositorio de ATIERRA
+### Repositorio de ATIERRA
 
-### Customize configuration
-Andrea Monroy
-Fiorella Sánchez
+### Equipo
+- Andrea Monroy<br>
+- Fiorella Sánchez
