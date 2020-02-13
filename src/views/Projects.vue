@@ -3,28 +3,37 @@
     <div id="nav">
       <router-link to="/">INICIO</router-link> |
       <router-link to="/about">QUIÉNES SOMOS</router-link>|
-        <router-link to="/projects">NUESTROS PROYECTOS</router-link>
+      <router-link to="/projects">NUESTROS PROYECTOS</router-link>
     </div>
-    
-    
-          <div class="container center-container section__hero">
-        <div class="section__form bg-white p-4  shadow-md rounded center-feriaza">
-          <h1 class="mb-2 text-4xl font-bold text-grey-darkest title-center">FERIAZA</h1>
-          <h2 class="mb-6 text-base text-grey-dark font-bold title-about" style="color:#38a89d">
-            Encuentra espacios ideales para tu marca
-          </h2>
-              <form class="form__search">
-                <Button type="success" 
-                  class="px-2 py-4 bg-yellow-dark font-semibold w-full rounded text-yellow-darker"
-                >
-                  VER PROYECTO
-                </Button>
-              </form>
-        </div>
+
+    <div class="container center-container section__hero">
+      <div class="section__form bg-white p-4  shadow-md rounded center-feriaza">
+        <h1 class="mb-2 text-4xl font-bold text-grey-darkest title-center">
+          FERIAZA
+        </h1>
+        <h2
+          class="mb-6 text-base text-grey-dark font-bold title-about"
+          style="color:#38a89d"
+        >
+          Encuentra espacios ideales para tu marca
+        </h2>
+        <form class="form__search">
+          <Button
+            type="success"
+            class="px-2 py-4 bg-yellow-dark font-semibold w-full rounded text-yellow-darker"
+          >
+            <a
+              target="_blank"
+              style="color: #fff"
+              href="http://feriaza.herokuapp.com/"
+              >VER PROYECTO</a
+            >
+          </Button>
+        </form>
       </div>
+    </div>
   </div>
 </template>
-
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
@@ -76,12 +85,12 @@
   width: 50% !important;
 } */
 
-  .align-button {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center !important;
-    display: flex;
-  }
+.align-button {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center !important;
+  display: flex;
+}
 
 @media (max-width: 576px) {
   .section__hero {
