@@ -2,9 +2,6 @@
   "name": "atierra",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "10.16.3"
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -25,6 +22,10 @@
     "@vue/cli-plugin-vuex": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.11.3"
   },
   "browserslist": [
     "> 1%",
