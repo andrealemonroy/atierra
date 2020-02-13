@@ -22,7 +22,7 @@
 
         <br />
         <Button>
-          <a target="_blank" href="https://drive.google.com/open?id=1MtMNy8qtaFXgiDxNZKapQPZEDajI4dmM">DESCARGAR CV</a>
+          <a target="_blank" href="https://drive.google.com/file/d/1MtMNy8qtaFXgiDxNZKapQPZEDajI4dmM/view?usp=sharing">VER CV</a>
         </Button>
       </Col>
       <Col :lg="7" class="align-center">
@@ -45,7 +45,7 @@
 
         <br />
         <Button>
-          <a target="_blank" href="https://drive.google.com/file/d/1pd2US_sTYSAeNMjTaWWTJo_rLJPegeer/view?usp=sharing">DESCARGAR CV</a>
+          <a target="_blank" href="https://drive.google.com/file/d/1pd2US_sTYSAeNMjTaWWTJo_rLJPegeer/view?usp=sharing">VER CV</a>
         </Button>
       </Col>
     </Row>
