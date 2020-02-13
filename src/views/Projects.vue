@@ -18,17 +18,9 @@
           Encuentra espacios ideales para tu marca
         </h2>
         <form class="form__search">
-          <Button
-            type="success"
-            class="px-2 py-4 bg-yellow-dark font-semibold w-full rounded text-yellow-darker"
+          <a target="_blank" class="btn" href="http://feriaza.herokuapp.com/"
+            ><strong>VER PROYECTO</strong></a
           >
-            <a
-              target="_blank"
-              style="color: #fff"
-              href="http://feriaza.herokuapp.com/"
-              >VER PROYECTO</a
-            >
-          </Button>
         </form>
       </div>
     </div>
@@ -90,6 +82,28 @@
   -ms-flex-pack: center;
   justify-content: center !important;
   display: flex;
+}
+
+.btn {
+  background-color: #4caf50; /* Green */
+  border: 2px solid #2a7c2c;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.btn:hover {
+  color: #4caf50;
+  padding: 12px 32px;
+  background-color: #fff;
+  font-size: 16px;
+  border: 2px solid #2a7c2c;
 }
 
 @media (max-width: 576px) {
