@@ -26,7 +26,8 @@
     <Row type="flex" justify="center">
       <Col class="m-auto align-center" :lg="4">
         <img class="br-50 maxw-100" src="../assets/image.jpeg" />
-        <br />
+        <p class="namePartner">Andrea Monroy</p>
+
         <br />
         <Button>
           <a href="../assets/AndreaMonroy.png">DESCARGAR CV</a>
@@ -34,7 +35,8 @@
       </Col>
       <Col class="m-auto align-center" :lg="4">
         <img class="br-50 maxw-100" src="../assets/image-fio.jpeg" />
-        <br />
+        <p class="namePartner">Fiorella Sánchez</p>
+
         <br />
         <Button>
           <a>DESCARGAR CV</a>
@@ -77,7 +79,7 @@
         <img class="maxw-100" src="../assets/solution.jpg" />
         <br />
         <p class="font-22">
-          Mejorar servicios tradicionales implementando soluciones digitales
+          Queremos mejorar servicios tradicionales implementando soluciones digitales
           innovadoras.
         </p>
       </Col>
@@ -87,7 +89,7 @@
         <img class="maxw-100" src="../assets/social.png" />
         <br />
         <br />
-        <p class="font-22">Diseño inclusivo y accesible. Diseñar el mundo digital para tod@s</p>
+        <p class="font-22">Queremos diseñar de una forma inclusiva y accesible, creando un mundo digital para tod@s</p>
       </Col>
     </Row>
     <br />
@@ -100,6 +102,12 @@ export default {
   components: {
     // ES6; property shorthand + Vue should automatically dasherize the key for us
     VueTyper
-  }
+  },
 };
 </script>
+
+<style >
+.namePartner{
+  font-size: 25px;
+}
+</style>
