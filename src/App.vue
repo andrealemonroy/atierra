@@ -74,6 +74,10 @@ h1 {
   font-size: 20px;
 }
 
+.font-16 {
+  font-size: 16px;
+}
+
 .align-center {
   text-align: center;
 }

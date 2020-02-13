@@ -11,15 +11,7 @@
     <br />
     <br />
     <Row type="flex" justify="center">
-      <Col :lg="10">
-        <p class="align-center font-20">
-          Queremos aportar a nuestra comunidad.
-          <br />Buscamos proyectos interesantes y creativos.
-          <br />Nuestro objetivo: desarrollarlos, generar impacto y hacerlos inclusivos.
-          <br />Nos encantaría hacer realidad tu idea.
-          <br />Trabajemos juntxs.
-        </p>
-      </Col>
+      <Col :lg="10"> </Col>
     </Row>
     <br />
     <br />
@@ -30,8 +22,22 @@
 
         <br />
         <Button>
-          <a href="../assets/AndreaMonroy.png">DESCARGAR CV</a>
+          <a target="_blank" href="https://drive.google.com/open?id=1MtMNy8qtaFXgiDxNZKapQPZEDajI4dmM">DESCARGAR CV</a>
         </Button>
+      </Col>
+      <Col :lg="7" class="align-center">
+        <p class="font-16">
+          <br />
+          <br />
+          <strong>Queremos</strong> aportar a nuestra comunidad. <br /><strong
+            >Buscamos</strong
+          >
+          proyectos interesantes y creativos. <br />
+          <strong>Nuestro objetivo:</strong>
+          desarrollarlos, generar impacto y hacerlos inclusivos.
+          <br /><br /><strong>Nos encantaría</strong> hacer realidad tu idea.<br />
+          <strong>Trabajemos juntxs.</strong>
+        </p>
       </Col>
       <Col class="m-auto align-center" :lg="4">
         <img class="br-50 maxw-100" src="../assets/image-fio.jpeg" />
@@ -39,7 +45,7 @@
 
         <br />
         <Button>
-          <a>DESCARGAR CV</a>
+          <a target="_blank" href="https://drive.google.com/file/d/1pd2US_sTYSAeNMjTaWWTJo_rLJPegeer/view?usp=sharing">DESCARGAR CV</a>
         </Button>
       </Col>
     </Row>
