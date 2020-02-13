@@ -7,9 +7,8 @@
         <router-link to="/projects">NUESTROS PROYECTOS</router-link>
       </div>
     </div>
-
-    <br />
-    <br />
+    <br class="none" />
+    <br class="none" />
     <Row type="flex" justify="center">
       <Col :lg="10"> </Col>
     </Row>
@@ -17,17 +16,21 @@
     <br />
     <Row type="flex" justify="center">
       <Col class="m-auto align-center" :lg="4">
-        <img class="br-50 maxw-100" src="../assets/image.jpeg" />
+        <img class="br-50 maxw-100 mob-height" src="../assets/image.jpeg" />
         <p class="namePartner">Andrea Monroy</p>
 
         <br />
         <Button>
-          <a target="_blank" href="https://drive.google.com/file/d/1MtMNy8qtaFXgiDxNZKapQPZEDajI4dmM/view?usp=sharing">VER CV</a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1MtMNy8qtaFXgiDxNZKapQPZEDajI4dmM/view?usp=sharing"
+            >VER CV</a
+          >
         </Button>
       </Col>
       <Col :lg="7" class="align-center">
         <p class="font-16">
-          <br />
+          <br class="none" />
           <br />
           <strong>Queremos</strong> aportar a nuestra comunidad. <br /><strong
             >Buscamos</strong
@@ -39,13 +42,17 @@
           <strong>Trabajemos juntxs.</strong>
         </p>
       </Col>
-      <Col class="m-auto align-center" :lg="4">
-        <img class="br-50 maxw-100" src="../assets/image-fio.jpeg" />
+      <Col class="m-auto align-center pt-2em" :lg="4">
+        <img class="br-50 maxw-100 mob-height" src="../assets/image-fio.jpeg" />
         <p class="namePartner">Fiorella Sánchez</p>
 
         <br />
         <Button>
-          <a target="_blank" href="https://drive.google.com/file/d/1pd2US_sTYSAeNMjTaWWTJo_rLJPegeer/view?usp=sharing">VER CV</a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1pd2US_sTYSAeNMjTaWWTJo_rLJPegeer/view?usp=sharing"
+            >VER CV</a
+          >
         </Button>
       </Col>
     </Row>
@@ -53,7 +60,7 @@
     <br />
     <Row type="flex" justify="space-around">
       <Col :lg="20">
-        <h1>
+        <h1 class="font-22">
           <vue-typer
             :text="[
               'CREEMOS',
@@ -85,8 +92,8 @@
         <img class="maxw-100" src="../assets/solution.jpg" />
         <br />
         <p class="font-22">
-          Queremos mejorar servicios tradicionales implementando soluciones digitales
-          innovadoras.
+          Queremos mejorar servicios tradicionales implementando soluciones
+          digitales innovadoras.
         </p>
       </Col>
       <Col :lg="8">
@@ -95,7 +102,10 @@
         <img class="maxw-100" src="../assets/social.png" />
         <br />
         <br />
-        <p class="font-22">Queremos diseñar de una forma inclusiva y accesible, creando un mundo digital para tod@s</p>
+        <p class="font-22">
+          Queremos diseñar de una forma inclusiva y accesible, creando un mundo
+          digital para tod@s
+        </p>
       </Col>
     </Row>
     <br />
@@ -108,12 +118,12 @@ export default {
   components: {
     // ES6; property shorthand + Vue should automatically dasherize the key for us
     VueTyper
-  },
+  }
 };
 </script>
 
-<style >
-.namePartner{
+<style>
+.namePartner {
   font-size: 25px;
 }
 </style>

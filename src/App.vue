@@ -67,7 +67,7 @@ h1 {
 }
 
 .font-22 {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 
 .font-20 {
@@ -75,7 +75,7 @@ h1 {
 }
 
 .font-16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .align-center {
@@ -113,8 +113,20 @@ h1 {
   .top-80 {
     top: -80px;
   }
+  .top-40 {
+    top: -40px;
+  }
   .height-240 {
     max-height: 240px;
+  }
+  .mob-height {
+    max-height: 120px;
+  }
+  .none {
+    display: none;
+  }
+  .pt-2em {
+    padding-top: 2em;
   }
 }
 </style>
