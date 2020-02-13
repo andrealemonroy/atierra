@@ -13,7 +13,7 @@
     <br />
     <br />
     <Row type="flex" justify="space-around">
-      <Col :lg="14">
+      <Col class="top-80" :lg="14">
         <br />
         <br />
         <br />
@@ -50,7 +50,7 @@
         </Row>
       </Col>
       <Col :lg="6">
-        <img class="maxw-100 top-20" src="../assets/world.png" />
+        <img class="maxw-100 top-20 height-240" src="../assets/world.png" />
       </Col>
     </Row>
   </div>

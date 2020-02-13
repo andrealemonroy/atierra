@@ -8,7 +8,7 @@
 .home {
   background: url("./assets/background-stars.png") no-repeat;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -84,5 +84,37 @@ h1 {
 
 .br-50 {
   border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+  .section__hero {
+    min-height: 250px;
+  }
+
+  .title-center {
+    font-size: 2em !important;
+  }
+
+  .title-about {
+    font-size: 1.3em !important;
+  }
+
+  .section__form {
+    @apply w-full;
+  }
+
+  #nav {
+    font-size: 8px !important;
+    margin: 0;
+  }
+  .home h1 {
+    font-size: 20px !important;
+  }
+  .top-80 {
+    top: -80px;
+  }
+  .height-240 {
+    max-height: 240px;
+  }
 }
 </style>

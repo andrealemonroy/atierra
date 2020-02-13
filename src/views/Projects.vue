@@ -119,10 +119,6 @@
     font-size: 1.3em !important;
   }
 
-  .center-container {
-    width: 90% !important;
-  }
-
   .section__form {
     @apply w-full;
   }
