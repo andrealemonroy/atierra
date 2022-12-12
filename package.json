@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "iview": "^3.5.4",
     "view-design": "^4.1.2",
     "vue": "^2.6.11",
